@@ -1,7 +1,7 @@
 
 
 <p align="center">
-  Random Frase App
+ JokenPo Game
 </p>
 
 <p align="center">
