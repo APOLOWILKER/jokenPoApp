@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <img alt="Kotlin Badge" src="https://img.shields.io/badge/Java-orange"/>
+  <img alt="Java Badge" src="https://img.shields.io/badge/Java-orange"/>
   <img alt="Android" src="https://img.shields.io/badge/Android-green"/>
   <img alt="License" src="https://img.shields.io/badge/MIT-green"/>
 </p>
@@ -19,22 +19,22 @@
 <br>
 
 <p align="center">
-  <img alt="App Screen" src="![image](https://github.com/APOLOWILKER/RandomNumber/assets/78989862/fab09697-5de3-4fa2-b15c-27415372927f)
-" width="50%">
+  <img alt="App Screen" src="" width="50%">
 </p>
 
 
 ## functionalities
 
-- Random frase
+- Game of rock, paper, scissors.
+- Choose one of the options to play randomly with the machine.
 
 
 ## 🧰 Technologies
 Here are the technologies used in this project
 
 - Java
-
-
+- Android
+- XML
 
 ---
 
