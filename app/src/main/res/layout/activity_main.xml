@@ -44,38 +44,38 @@
         app:layout_constraintTop_toBottomOf="@+id/image_app" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/pedra_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:onClick="selectStone"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/papel_image"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/pedra" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/papel_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:onClick="selectPaper"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/tesoura_image"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/pedra_image"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/papel" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/tesoura_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="16dp"
         android:onClick="selectScissors"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toEndOf="@+id/papel_image"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/tesoura" />
 
@@ -90,6 +90,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/papel_image" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
