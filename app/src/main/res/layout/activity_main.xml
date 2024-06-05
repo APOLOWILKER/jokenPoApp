@@ -5,26 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="selectStone"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="Escolha do App"
-        android:textSize="20sp"
+        android:layout_marginTop="35sp"
+        android:text="@string/pc_choice"
+        android:textSize="35sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/image_app"
+        android:id="@+id/ivPChoice"
         android:layout_width="140dp"
         android:layout_height="140dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="@string/pc_choice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,12 +42,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_app" />
+        app:layout_constraintTop_toBottomOf="@+id/ivPChoice" />
 
     <ImageView
         android:id="@+id/pedra_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
         android:layout_marginTop="16dp"
         android:onClick="selectStone"
         app:layout_constraintEnd_toStartOf="@+id/papel_image"
@@ -57,8 +58,8 @@
 
     <ImageView
         android:id="@+id/papel_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
         android:layout_marginTop="16dp"
         android:onClick="selectPaper"
         app:layout_constraintEnd_toStartOf="@+id/tesoura_image"
@@ -69,8 +70,8 @@
 
     <ImageView
         android:id="@+id/tesoura_image"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="107dp"
+        android:layout_height="107dp"
         android:layout_marginTop="16dp"
         android:onClick="selectScissors"
         app:layout_constraintEnd_toEndOf="parent"
@@ -85,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="Resultado"
-        android:textSize="34sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

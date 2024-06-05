@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         String choicePC = choices[randomNumber];
 
-        ImageView imageApp = findViewById(R.id.image_app);
+        ImageView imageApp = findViewById(R.id.ivPChoice);
         switch (choicePC){
             case "pedra" :
                 imageApp.setImageResource(R.drawable.pedra);
